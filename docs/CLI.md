@@ -59,7 +59,7 @@ The output should look something like this:
 }
 ```
 
-The `summary` part is the "fingerprint" we need for staking. Next, [please follow the steps here](./GUI.md#stake-to-the-guardian-node) to stake some mainnet Theta tokens from the Theta Wallet. Each guardian staking transaction requires at least 10,000 Theta tokens.
+The `summary` part is the "fingerprint" we need for staking. Next, [please follow the steps here](./GUI.md#stake-to-the-guardian-node) to stake some mainnet Theta tokens from the Theta Wallet. Each guardian staking transaction requires at least 1000 Theta tokens.
 
 If everything works out, this node will start to send out guardian votes for the checkpoint blocks (i.e. the blocks whose `height%100 == 1`). In a few minutes we should start to see guardian votes in the log.
 
